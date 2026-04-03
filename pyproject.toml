@@ -1,0 +1,14 @@
+[project]
+name = "micropython-rotaryencoder"
+version = "1.0.0"
+description = "A MicroPython library for IRQ-based quadrature rotary encoder handling on RP2040."
+authors = [
+    {name = "Miguel Scaramozzino", email = "mikele@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+urls = {repository = "https://github.com/mikelexp/micropython-rotaryencoder"}
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
